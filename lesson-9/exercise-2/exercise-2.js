@@ -10,7 +10,7 @@ function findTriangleType(){
 
     if (first == second && first == third){
             document.getElementById("triangleType").value = "equilateral";
-    }else if (third == second || second == third || first == third){
+    }else if (first == second || second == third || first == third){
             document.getElementById("triangleType").value = "Isosceles";
     } else {
         document.getElementById("triangleType").value = "Scalene";

@@ -15,7 +15,7 @@ function findLargest(){
             document.getElementById("number").value = "Third Number";
             document.getElementById("numberValue").value = third;
     } else {
-        document.getElementById("number").value = "second Number";
+        document.getElementById("number").value = "Second Number";
         document.getElementById("numberValue").value = second;
     }
 }
