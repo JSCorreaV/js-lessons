@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 2</title>
+    <script type="text/javascript" src="exercise-2.js"></script>
 </head>
 <body>
+    <b>Find the type of triangle</b>
+    <table>
+        <tr>
+            <td>Enter the first side: </td>
+            <td><input type="text" id="firstNumber"></td>
+        </tr>
+        <tr>
+            <td>Enter the second side: </td>
+            <td><input type="text" id="secondNumber"></td>
+        </tr>
+        <tr>
+            <td>Enter the third side: </td>
+            <td><input type="text" id="thirdNumber"></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="find the biggest" onclick="findTriangleType()">
+            </td>
+        </tr>
+        <tr>
+            <td>This triangle is type : </td>
+            <td>
+                <input type="text" id="triangleType" disabled>
+            </td>
+        </tr>
+    </table>
     
 </body>
 </html>
