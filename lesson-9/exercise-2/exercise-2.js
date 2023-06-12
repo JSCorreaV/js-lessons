@@ -15,4 +15,4 @@ function findTriangleType(a,b,c){
         }
         }
 
-    //print in html the type of triangle
+    //print in the html page the type of triangle
