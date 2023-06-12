@@ -21,5 +21,5 @@ function findDaysInMonth(a){
         return "31 days";
     }
 
-    //print the result in the html
+    //print the result in the html page
 }
