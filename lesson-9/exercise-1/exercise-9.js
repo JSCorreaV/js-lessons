@@ -16,5 +16,5 @@ function findLargest(a,b,c){
         return c;
     }
 
-    //print in html the biggest
+    //print in the html page the biggest
 }
