@@ -7,7 +7,31 @@ Function `findDaysInMonth()` finds the number of days in a given month of a year
 -Else print “31 days”.
 */
 
-function findDaysInMonth(){
+function findDaysInMonth(month){
+       
+    if (!(month >= 1 && age <= 12)) {
+            console.log ("Invalid month");
+            return "Invalid month"
+        }
+
+        else if (month = 2) {
+        console.log ("February might have 28 or 29 days");
+        return "February might have 28 or 29 days";
+    }
+
+         else (month = 1 || 6 || 9 || 11) 
+         console.log ("30 days");
+         return "30 days";
+
+         else (month != 1 || 6 || 9 || 11);
+         console.log ("31 days");
+         return "31 days";
+
+         //visual studio no me deja o me bloquea este else
+         
+}
+         
+    
+findDaysInMonth()
 
     //print the result in the html
-}
