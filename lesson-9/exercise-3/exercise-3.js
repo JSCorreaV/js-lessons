@@ -8,7 +8,7 @@ Function `findDaysInMonth()` finds the number of days in a given month of a year
 */
 
 function findDaysInMonth(month){
-    let month = document.getElementById("month")
+    let month = document.getElementsByName("month")
     if  (month <1 || month >12){
         console.log("Invalid month")
     }    
