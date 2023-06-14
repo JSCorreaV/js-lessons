@@ -7,14 +7,14 @@ Function `findDaysInMonth()` finds the number of days in a given month of a year
 -Else print “31 days”.
 */
 
-function findDaysInMonth(a){
-    if (a<1 || a>12){
+function findDaysInMonth(month){
+    if (month<1 || month>12){
         return "Invalid month";
     }
-    else if (a==2){
+    else if (month==2){
         return "February might have 28 or 29 days";
     }
-    else if (a==4 || a==6 || a==9 || a==11){
+    else if (month==4 || month==6 || month==9 || month==11){
         return "30 days";
     }
     else{
