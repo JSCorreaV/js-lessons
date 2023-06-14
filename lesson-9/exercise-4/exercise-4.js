@@ -1,0 +1,25 @@
+//Count all vocals in a given text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
