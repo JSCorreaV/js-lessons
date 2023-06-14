@@ -8,7 +8,7 @@ Function `findDaysInMonth()` finds the number of days in a given month of a year
 */
 
 function findDaysInMonth(a){
-    if (a<1 || a>=12){
+    if (a<1 || a>12){
         return "Invalid month";
     }
     else if (a==2){
