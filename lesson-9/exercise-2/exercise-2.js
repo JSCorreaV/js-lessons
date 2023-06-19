@@ -18,7 +18,8 @@ function findTriangleType(side1, side2, side3){
         return "The triangle is isosceles";
     }
     
-    else (side1 != side2 && side2 != side3 && side1 != side3);{
+    else {
+
         console.log ("The triangle is scalene");
         return "The triangle is scalene";
     }
