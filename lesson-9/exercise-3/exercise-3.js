@@ -6,7 +6,9 @@ Function `findDaysInMonth()` finds the number of days in a given month of a year
 -Else if month is equal to 4, 6, 9 or 11 print “30 days”.
 -Else print “31 days”.
 */
+let result;
 
+<<<<<<< HEAD
 function findDaysInMonth(month){
     if (month<1 || month>12){
         return "Invalid month";
@@ -23,3 +25,19 @@ function findDaysInMonth(month){
 
     //print the result in the html page
 }
+=======
+function findDaysInMonth(){
+    month = 0;
+    if (month > 12 || month < 1) {
+        result="not a month number";
+    }
+    else if(month==2) {
+        result="february";
+    } 
+    else result="not february";
+    
+    console.log(result);
+}
+
+findDaysInMonth();
+>>>>>>> main

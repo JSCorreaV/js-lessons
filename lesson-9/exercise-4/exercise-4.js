@@ -7,6 +7,7 @@
 //EX: 23:59:59 => 00:00:00
 
 function nextSecondTime(hour, minute, second){
+<<<<<<< HEAD
     second++;
     if (second>=59){
         second==0;
@@ -23,6 +24,8 @@ function nextSecondTime(hour, minute, second){
         hour++;
     
     console.log(`Time is: ${hour}: ${minute}: ${second}`)
+=======
+>>>>>>> main
 }
 
 nextSecondTime(23,59,59)
@@ -51,4 +54,7 @@ nextSecondTime(23,59,59)
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
