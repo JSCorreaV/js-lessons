@@ -20,6 +20,8 @@ function nextSecondTime(hour, minute, second){
       } 
     }
     console.log(`Time is: ${hour}: ${minute}: ${second}`)
+
+    
 }
 
 nextSecondTime(8,53,43)
