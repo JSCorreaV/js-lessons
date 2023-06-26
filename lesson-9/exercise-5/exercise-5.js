@@ -9,13 +9,34 @@ the lowest
 
 function listOfNumbers(){
     let sum=0;
+    let min = 99999;
+    let max = Number.MIN_VALUE;
     list = [5,3,5,6,70,8,4];
+
+    for (let index = 0; index < list.length; index++) {
+        if (min > list[index]){
+            min = list[index];
+        } 
+    }
+    console.log(min);
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    /*
      for (let index =0; index < list.length; index ++){  
         sum +=list[index];
-        media= sum / list.length;
+     }
+        media = sum / list.length;
         highest = Math.max.apply(null,list);
         lowest = Math.min.apply(null,list);
-    } 
-    console.log(`the sum is: ${sum}, the media is : ${media}, the highest is ${highest}, the lowest is ${lowest}`);    
-}
+
+    console.log(`the sum is: ${sum}, the media is : ${media}, the highest is ${highest}, the lowest is ${lowest}`);   */
+
 listOfNumbers()
