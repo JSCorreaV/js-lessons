@@ -5,7 +5,9 @@ function checkLists(listOne, listTwo) {
   return equalLists;
 }
 
-checkLists(["a", "b", "c"], ["a", "b", "c"]); //True
-checkLists(["a", "c", "b"], ["a", "b", "c"]); //False
-checkLists(["a", "b", "c", "d"], ["a", "b", "c"]); //False
-checkLists(["a", "b", "c"], ["a", "b", "c", "e"]); //False
+
+
+//checkLists(["a", "b", "c"], ["a", "b", "c"]); //True
+//checkLists(["a", "c", "b"], ["a", "b", "c"]); //False
+//checkLists(["a", "b", "c", "d"], ["a", "b", "c"]); //False
+//checkLists(["a", "b", "c"], ["a", "b", "c", "e"]); //False
