@@ -2,6 +2,7 @@
 Function `findTriangleType()` finds the type of the triangle (Equilateral, Isosceles, Scalene)
  for given side values by using “==” and “&&” operator in JavaScript.
 */
+let result;
 
 function findTriangleType(size1, size2, size3){
     let size1=document.getElementsByName("size1").value;

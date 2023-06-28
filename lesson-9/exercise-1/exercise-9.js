@@ -2,6 +2,7 @@
 Function `findLargest()` finds the largest of three number by using “>” and “&&” operator in JavaScript.
 
 */
+let result;
 
 function findLargest(){
     let n1=document.getElementById("number1").value;
