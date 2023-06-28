@@ -5,7 +5,7 @@ the highest
 the lowest
 */
 
-let result = "vacio";
+let result = "";
 
 function listOfNumbers(list) {
   let sum = 0;

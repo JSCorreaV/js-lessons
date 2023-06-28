@@ -8,18 +8,17 @@ Function `findDaysInMonth()` finds the number of days in a given month of a year
 */
 let result;
 
-function findDaysInMonth(month){
-    let month = document.getElementsByName("month")
-    if  (month <1 || month >12){
-        console.log("Invalid month")
-    }    
-    else if(month >=2) {
-        console.log("February might have 28 or 29 days")
+function findDaysInMonth(){
+    month = 0;
+    if (month > 12 || month < 1) {
+        result="not a month number";
     }
-    else if (month==4 || month==6 || month==9 || month== 11) {
-            console.log("30 days")
-        }
-    else (console.log("31 days"))
-    }
+    else if(month==2) {
+        result="february";
+    } 
+    else result="not february";
+    
+    console.log(result);
+}
 
-    //print the result in the html
+findDaysInMonth();

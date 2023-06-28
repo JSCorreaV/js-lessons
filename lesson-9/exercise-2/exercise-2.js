@@ -4,18 +4,19 @@ Function `findTriangleType()` finds the type of the triangle (Equilateral, Isosc
 */
 let result;
 
-function findTriangleType(size1, size2, size3){
-    let size1=document.getElementsByName("size1").value;
-    let size2=document.getElementsByName("size2").value;
-    let size3=document.getElementsByName("size3").value;
+function findTriangleType(){
+    first = 8;
+    second =8;
+    third = 8;
 
-    if (size1==size2 && size2==size3) {
-         console.log ("this is a equilateral triangle");
+    if(first == second && second ==third){
+        result= "equilateral";
+    } else if (first == second || second == third || first == third){
+        result= "Isoceles";    
+    } else {
+        result = "Scalene";
     }
-    else if (size1==size2 || size2==size3 || size1==size3)
-         console.log("this is a isosceles triangle");
-    
-    else { (console.log("this is a scalene triangle"));   
-}}
+    console.log(result);
+}
 
-    //print in html the type of triangle
+findTriangleType()
