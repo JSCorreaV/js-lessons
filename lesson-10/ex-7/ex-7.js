@@ -2,8 +2,8 @@
 
 function checkLists(listOne, listTwo) {
   let equalLists = true;
-  
-  if (listOne.lenght == listTwo.lenght) {
+
+  if (listOne.length == listTwo.length) {
     for (let index = 0; index < listOne.length; index++) {
         if (listOne[index] != listTwo[index]){
           equalLists = false;
