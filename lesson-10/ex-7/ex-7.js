@@ -1,13 +1,20 @@
 //Are two lists equals?
 
 function checkLists(listOne, listTwo) {
-  let equalLists = false;
-  return equalLists;
+  let equalList = true
+  if (listOne.length != listTwo.length){
+    return false;
+  }
+  for (let i=0;i<listOne.length;i++){
+      if(listOne[i]!=listTwo[i]){
+        return false;
+        break;
+      } 
+    } 
+  return true;
 }
 
-
-
-//checkLists(["a", "b", "c"], ["a", "b", "c"]); //True
-//checkLists(["a", "c", "b"], ["a", "b", "c"]); //False
-//checkLists(["a", "b", "c", "d"], ["a", "b", "c"]); //False
-//checkLists(["a", "b", "c"], ["a", "b", "c", "e"]); //False
+console.log(checkLists(["a", "b", "c"], ["a", "b", "c"])); //True
+console.log(checkLists(["a", "c", "b"], ["a", "b", "c"])); //False
+console.log(checkLists(["a", "b", "c", "d"], ["a", "b", "c"])); //False
+console.log(checkLists(["a", "b", "c"], ["a", "b", "c", "e"])); //False
