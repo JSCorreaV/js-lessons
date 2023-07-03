@@ -2,17 +2,23 @@
 
 function findAllOddNumbers(numberList) {
   oddList = [];
-
-  for (let index = 0; index < numberList.length; index++) {
+ 
+   for (let index = 0; index < numberList.length; index++) {
     if (numberList[index] %2 !==0){
-      const element = oddList[index];
+    const element = numberList[index];
+    oddList.push(element);
+    //console.log(oddList)
+
+      }
+
+      }
+    
+    console.log(oddList)
+    
+
     }
-    
-    
-  }
-  
-  return oddList;
-}
+
+
 
 findAllOddNumbers([4, 5, 6, 7, 8, 9]); // result: [5,7,9]
 findAllOddNumbers([1, 2, 3, 4, 5]); // result: [1,3,5]
