@@ -2,9 +2,14 @@
 
 function primeList(limit) {
   primes = [];
+        for (let i=0; i<= limit.length; i++){
+             if( i %2 !== 0) {
+                primes.push(i);
+                console.log(i);
+            }
+        }
+  }
 
-  return primes;
-}
 
 console.log(primeList(2)); //result: [0,1,2]
 console.log(primeList(5)); //result: [0,1,2,5]

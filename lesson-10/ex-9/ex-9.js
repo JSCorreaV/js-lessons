@@ -1,9 +1,20 @@
 //create an array with all odd numbers
+/*convertir numberList en un array,
+luego buscar en ese array numero primo,
+si es un numero primo, entonces guardar ese num en un nuevo array oddList
+si no es un numero primo, entonces seguir buscando 
+*/
 
 function findAllOddNumbers(numberList) {
   oddList = [];
+    for (let index = 0; index < numberList.length; index++) {
+      if (numberList[index] %2 !== 0){
+          const element = numberList[index];
+            oddList.push(element);
+       }
+    }
 
-  return oddList;
+ console.log(oddList);
 }
 
 findAllOddNumbers([4, 5, 6, 7, 8, 9]); // result: [5,7,9]
