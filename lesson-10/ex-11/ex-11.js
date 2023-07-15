@@ -1,11 +1,27 @@
-//find all primes from 0 to limit
+// 
+/*find total price: 
+-if the bill is greater than 150,000 user should get 20% discount
+-and the end of the bill we should show the total price and the discount if applies.
+*/
 
-function primeList(limit) {
-  primes = [];
+const chocolate = 2000;
+const wine = 45000;
+const meat = 25000;
+const chicken = 28000;
+const dogChow = 125000;
+const iceCream = 32000;
+const coffee = 30000;
+const bacon = 18000;
+const coke = 8000;
+const rice = 42000;
+const milk = 68000;
+const cereal = 15000;
 
-  return primes;
-}
+function totalPrice(products) {
 
-console.log(primeList(2)); //result: [0,1,2]
-console.log(primeList(5)); //result: [0,1,2,5]
-console.log(primeList(10)); //result: [0,1,2,3,5,7]
+    return totalPrice;
+  }
+  
+  console.log(totalPrice(chocolate,milk,wine,dogChow)); //192000
+  console.log(totalPrice(chocolate,milk,wine)); //115000 
+  console.log(totalPrice(cereal,bacon,rice,iceCream));  // 107000 
