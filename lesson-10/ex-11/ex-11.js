@@ -18,10 +18,18 @@ const milk = 68000;
 const cereal = 15000;
 
 function totalPrice(products) {
+    let total = 0;
+    for (let index = 0; index < products.length; index++) {
+         total = products[index] + total;      
+    } 
 
-    return totalPrice;
+    if (total > 150000){
+        total = total * 0.80;
+    }
+    
+    return total;
   }
-  
-  console.log(totalPrice(chocolate,milk,wine,dogChow)); //192000
-  console.log(totalPrice(chocolate,milk,wine)); //115000 
-  console.log(totalPrice(cereal,bacon,rice,iceCream));  // 107000 
+
+  console.log(totalPrice([chocolate,milk,wine,dogChow])); //192000
+  console.log(totalPrice([chocolate,milk,wine])); //115000 
+  console.log(totalPrice([cereal,bacon,rice,iceCream]));  // 107000 
