@@ -8,6 +8,7 @@ function primeList(limit) {
                 console.log(i);
             }
         }
+        return primes;
   }
 
 
